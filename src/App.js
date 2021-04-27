@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1 style={{ color: "red", background: "orange" }}>Hello React!</h1>
 
-        <div
+        {/* <div
           style={{
             width: "auto",
             height: "auto",
@@ -25,7 +25,7 @@ function App() {
         <h1 style={{ color: "red", background: "orange" }}>Hello React!</h1>
           `}</code>
           </p>
-        </div>
+        </div> */}
 
         <a
           className="App-link"
