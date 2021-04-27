@@ -6,7 +6,27 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p style={{ color: "red", background: "white" }}>Hello React!</p>
+        <h1 style={{ color: "red", background: "orange" }}>Hello React!</h1>
+
+        <div
+          style={{
+            width: "auto",
+            height: "auto",
+            padding: "1vw",
+            background: "orange",
+          }}
+        >
+          <p style={{ color: "red", background: "orange" }}>
+            This is (partially) styled inline like this:
+          </p>
+
+          <p style={{ color: "red", background: "orange" }}>
+            <code>{`
+        <h1 style={{ color: "red", background: "orange" }}>Hello React!</h1>
+          `}</code>
+          </p>
+        </div>
+
         <a
           className="App-link"
           href="https://reactjs.org"
