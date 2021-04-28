@@ -1,13 +1,19 @@
 p {
   /* border: solid 1px black; */
   font-family: "Inconsolata", monospace;
+  font-size: 100px;
+  color: black;
+}
+a {
+  /* border: solid 1px black; */
+  font-family: "Inconsolata", monospace;
   margin: 0px;
   padding: 0px;
-  font-size: 1vw;
+  font-size: 2vw;
 
   padding-left: 1vw;
   padding-right: 1vw;
-  max-width: 250px;
+  max-width: 135px;
 }
 
 div {
@@ -17,6 +23,7 @@ div {
 
 h1 {
   font-family: "Averia Serif Libre", cursive;
+  font-size: 6vw;
   padding-left: 1vw;
   padding-right: 1vw;
   border-radius: 1vw;
