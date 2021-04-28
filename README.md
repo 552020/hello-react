@@ -1,3 +1,33 @@
+# Content
+
+My first CRA React App.
+
+Here [online](https://hello-react552020.netlify.app/)!
+
+CRA stands for [Create React App](https://create-react-app.dev/). To crate a React app you need to install a lot of tools to let React works properly. Create React App does the job and install all the necessary dependencies and tools you need.
+
+Here some instructions how to do it by yourself, or for the case I forgot you I did it: -[create-react-app official docs](https://create-react-app.dev/docs/getting-started/)  
+-[codecademy step-by-step tutorial](https://www.codecademy.com/articles/how-to-create-a-react-app)
+
+# Languges
+
+HTML, CSS, JavaScript, JSX // Is JSX actually a language (on his own)?
+
+# What's different...
+
+in comparison to the out-of-the-box CRA-App.
+
+- Some styling on the page.
+- An eventhandler on the 'Learn React' link (working on it). The function associated with the random number works atm when you realod the page but it's not fired when you just click on the link. In the actual (maybe now previous) vesion you can see a big black 'Hello' followed by a 1 or 2 or 3, that change if you reload the page. That's the random number that should define wich element of the array of links will be chosen.
+
+# Learnings
+
+- How to 'escape' HTML & JavaScript in JSX if you want to show some code snippet on the webpage without letting the compiler reading it as actual code. I used first the tags <pre></pre>, and then <code></code>, cause I was not satisfy how <pre> worked. I tried also with HTML encoder, that would have worked in Javascript but it didn't worked out. /// Question to myself. What is the exact difference between the parse, the compiler, and the interpretere. Start here maybe: https://blog.bitsrc.io/how-does-javascript-really-work-part-1-7681dd54a36d.
+
+# from here...
+
+the contect of the README.md file created by create-react-app follows:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
