@@ -1,0 +1,25 @@
+div {
+  background-color: yellow;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3vw;
+  background-color: pink;
+  margin: 1vw;
+}
+
+.p-c {
+  font-family: "Inconsolata", monospace;
+  background-color: whitesmoke;
+  padding: 1.5vw;
+  margin: 1vw;
+  margin-left: 3vw;
+  font-size: 2vw;
+  border-radius: 2vw;
+}
+
+.myButton {
+  margin-right: 3vw;
+}
