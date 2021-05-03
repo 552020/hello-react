@@ -18,6 +18,11 @@ const learnReact = [
 ];
 
 const RandomArrInd = Math.floor(Math.random() * learnReact.length);
+const myFunction = () => {
+  RandomArrInd();
+};
+
+const myLink = learnReact[RandomArrInd];
 
 function App() {
   return (
@@ -30,7 +35,8 @@ function App() {
         <a
           style={styles}
           className="App-link"
-          href={learnReact[RandomArrInd]}
+          onclick={myFunction}
+          href={myLink}
           target="_blank"
           rel="noopener noreferrer"
         >
