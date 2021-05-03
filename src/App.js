@@ -64,7 +64,7 @@ function App(props) {
           style={styles}
           className="App-link"
           onclick={clickHandler}
-          href={randomLink}
+          href="https://www.google.com/search?q=learn+react&oq=learn+react&aqs=chrome.0.69i59j0l4j69i60l3.4603j0j7&sourceid=chrome&ie=UTF-8"
           target="_blank"
           rel="noopener noreferrer"
         >
