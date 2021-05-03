@@ -1,19 +1,29 @@
-# Content
+# Hello React 🙌
 
 My first CRA React App.
 
 Here [online](https://hello-react552020.netlify.app/)!
+
+## Content
+
+well. My first CRA React 'App'.
 
 CRA stands for [Create React App](https://create-react-app.dev/). To crate a React app you need to install a lot of tools to let React works properly. Create React App does the job and install all the necessary dependencies and tools you need.
 
 Here some instructions how to do it by yourself, or for the case I forgot you I did it: -[create-react-app official docs](https://create-react-app.dev/docs/getting-started/)  
 -[codecademy step-by-step tutorial](https://www.codecademy.com/articles/how-to-create-a-react-app)
 
-# Languges
+## To do
 
-HTML, CSS, JavaScript, JSX // Is JSX actually a language (on his own)?
+- Let the buttons do more fun stuff. Outside of their components. But maybe that's not how components should work.
 
-# What's different...
+- Style the component in a way that the box in the center stay always centered. Check this: https://stackoverflow.com/questions/32378953/keep-the-middle-item-centered-when-side-items-have-different-widths
+
+## Languges
+
+HTML, CSS, JavaScript, JSX // Is JSX actually a language (on his own)? Nope.
+
+## What's different...
 
 in comparison to the out-of-the-box CRA-App.
 
