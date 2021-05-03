@@ -6,12 +6,28 @@ import Component from "./components/Component";
 const styles = {
   //background: "#f5f7b2",
   background: "whitesmoke",
-
   color: "black",
   padding: "1vw",
   borderRadius: "1vw", // border-radius: 1vw;
   fontFamily: "Inconsolata",
 };
+
+const content = [
+  {
+    id: "c1",
+    line: "I'm a component.",
+    like: "Ice cream 🍦",
+    button: "click me!",
+  },
+
+  { id: "c2", line: "Me too...", like: "kittens 🐈", button: "try me!" },
+  {
+    id: "c3",
+    line: "Me as well!",
+    like: "holidys 🏖🌊🏝🌅",
+    button: "guess what!",
+  },
+];
 
 // const clickHandler = () => {
 //   RandomArrInd();
@@ -59,9 +75,21 @@ function App(props) {
         </a> */}
       </header>
       <main>
-        <Component />
-        <Component />
-        <Component />
+        <Component
+          line={content[0].line}
+          like={content[0].like}
+          button={content[0].button}
+        />
+        <Component
+          line={content[1].line}
+          like={content[1].like}
+          button={content[1].button}
+        />
+        <Component
+          line={content[2].line}
+          like={content[2].like}
+          button={content[2].button}
+        />
       </main>
     </div>
   );
