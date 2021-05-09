@@ -45,7 +45,9 @@ function App(props) {
     "https://www.google.com/",
   ];
   const RandomArrInd = Math.floor(Math.random() * learnReact.length);
-  const [randomLink, setLink] = useState(props.randomLink);
+  const [randomLink, setLink] = useState(
+    "https://reactjs.org/docs/getting-started.html"
+  );
 
   const clickHandler = () => {
     setLink(learnReact[RandomArrInd]);
@@ -64,7 +66,7 @@ function App(props) {
           style={styles}
           className="App-link"
           onClick={clickHandler}
-          href="https://www.google.com/search?q=learn+react&oq=learn+react&aqs=chrome.0.69i59j0l4j69i60l3.4603j0j7&sourceid=chrome&ie=UTF-8"
+          href={randomLink}
           target="_blank"
           rel="noopener noreferrer"
         >
