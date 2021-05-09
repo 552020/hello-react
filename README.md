@@ -2,7 +2,9 @@
 
 My first CRA React App.
 
-Here [online](https://hello-react552020.netlify.app/)!
+Here [online](https://552020.github.io/hello-react/) with [GitHubPages](https://pages.github.com/)
+Or here [online](https://hello-react552020.netlify.app/) with [Netlify](https://www.netlify.com/)
+WARNING! Netlify deployment is still buggy. Our developers team is on it.
 
 ## Content
 
@@ -33,6 +35,8 @@ in comparison to the out-of-the-box CRA-App.
 # Learnings
 
 - How to 'escape' HTML & JavaScript in JSX if you want to show some code snippet on the webpage without letting the compiler reading it as actual code. I used first the tags <pre></pre>, and then <code></code>, cause I was not satisfy how <pre> worked. I tried also with HTML encoder, that would have worked in Javascript but it didn't worked out. /// Question to myself. What is the exact difference between the parse, the compiler, and the interpretere. Start here maybe: https://blog.bitsrc.io/how-does-javascript-really-work-part-1-7681dd54a36d.
+
+- How to deploy create-react-app-Apps with GitHub Pages: https://create-react-app.dev/docs/deployment/#github-pages. With the standard method the README was published.
 
 # from here...
 
